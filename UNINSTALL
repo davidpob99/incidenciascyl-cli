@@ -1,0 +1,4 @@
+#!/bin/bash
+
+rm /usr/bin/incidenciascyl-cli
+rm -r /usr/share/licenses/incidenciascyl-cli/

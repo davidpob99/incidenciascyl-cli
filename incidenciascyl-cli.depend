@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1516891728 source:/home/david/CodeBlocksProjects/incidenciascyl-cli/main.cpp
+	<cstdint>
+	<iostream>
+	<memory>
+	<string>
+	<sstream>
+	<unistd.h>
+	<curl/curl.h>
+	<jsoncpp/json/json.h>
+

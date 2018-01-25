@@ -1,0 +1,7 @@
+#!/bin/bash
+
+cd bin/Release
+install -Dm755 incidenciascyl-cli /usr/bin/incidenciascyl-cli
+cd ..
+cd ..
+install -Dm755 LICENSE /usr/share/licenses/incidenciascyl-cli/LICENSE
