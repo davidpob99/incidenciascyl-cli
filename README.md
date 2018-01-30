@@ -6,7 +6,7 @@
 Programa de terminal para visualizar las incidencias en las carreteras de Castilla y León.
 
 ## Instalación
-
+### GNU/Linux excepto Arch Linux
 Antes de proceder a la instalación, es necesario tener libcurl y jsoncpp instalados. En Debian y derivados dichos paquetes son `libcurl-dev`, `libcurl4-gnutls-dev` y `libjsoncpp-dev`.
 
 1. `git clone https://github.com/davidpob99/incidenciascyl-cli` o descargar y descomprimir el zip del repositorio
@@ -14,8 +14,15 @@ Antes de proceder a la instalación, es necesario tener libcurl y jsoncpp instal
 3. `chmod -x INSTALL`
 4. `sudo sh INSTALL`
 
+### Arch Linux
+[AUR](https://aur.archlinux.org/packages/incidenciascyl-cli/)
+
 ## Desinstalación
+### GNU/Linux excepto Arch Linux
 Ejecutar el archivo UNINSTALL de forma similar a la instalación
+
+### Arch Linux
+`sudo pacman -R incidenciascyl-cli`
 
 ## Compilación
 Es necesario tener instalado jsoncpp, libcurl y g++. Todos ellos se pueden obtener desde los repositorios de la distribución UNIX que se esté usando.
