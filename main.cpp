@@ -13,7 +13,7 @@
 #include <unistd.h>
 #include <stdio.h>
 #include <curl/curl.h>
-#include <jsoncpp/json/json.h>
+#include <json/json.h>
 
 void imprimir(std::string provincia, std::string via, double pkinicio, double pkfin, std::string tramo, std::string tipo, std::string causa, std::string calzada, std::string observaciones,
               std::string fechaalta, std::string rutaalt, std::string masinfo);

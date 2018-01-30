@@ -19,7 +19,7 @@ Ejecutar el archivo UNINSTALL de forma similar a la instalación
 
 ## Compilación
 Es necesario tener instalado jsoncpp, libcurl y g++. Todos ellos se pueden obtener desde los repositorios de la distribución UNIX que se esté usando.
-`g++ -std=c++11 main.cpp -ljsoncpp -lcurl`
+`g++ -std=c++11 main.cpp -ljsoncpp -lcurl -o incidenciascyl-cli`
 
 Si se tiene codeblocks, se puede abrir el proyecto desde incidenciascyl-cli.cbp
 
